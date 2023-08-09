@@ -33,14 +33,14 @@ footer { margin: 10px; opacity: .5; font-size: .8rem; }
   display:grid; 
   grid-template-rows: 10px 1fr;
   grid-template-columns: 10px 1fr 10px ;
-  grid-template-areas: ". . ." "image image image" ". content ." ". navprev . " ". navnext .";
+  grid-template-areas: ". . ." " . logo . " "image image image" ". content ." ". navprev . " ". navnext .";
   background:  radial-gradient(ellipse at 10% 80%, rgba(var(--color-base), .85) 60%, rgba(var(--color-base),1) 80%) no-repeat 0 100%, var(--bg) no-repeat 0% 100%;
   background-size: 1280px 1024px;
 
 }
 @media (min-width:400px) {
   .page {
-    grid-template-areas: ". . ." ". image ." ". content ." ". navprev . " ". navnext .";
+    grid-template-areas: ". . ." " . logo . " ". image ." ". content ." ". navprev . " ". navnext .";
   }
 }
 @media (min-width:700px) {
@@ -50,16 +50,18 @@ footer { margin: 10px; opacity: .5; font-size: .8rem; }
   .page {
     grid-template-rows: 40px 1fr;
     grid-template-columns: 50px 1fr 50px;
-    grid-template-areas: ". . ." "navprev image navnext" ". content .";
+    grid-template-areas: ". . ." " . logo . " "navprev image navnext" ". content .";
   }
 }
 
 .photo-main {background-color: var(--color-dark); grid-area: image; }
 .photo-main > img { max-height: 90vh; max-width: 100%; box-shadow: 20px 0 0 0 rgb(var(--color-base)); vertical-align: bottom;  }
 
+.header { grid-area: logo; text-transform: uppercase; padding:25px 0 75px; }
+.header > #logo { vertical-align: -0.4rem; }
 
 .photo-title { 
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-transform: uppercase;
   font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", "Arial Narrow", Helvetica, Arial, sans-serif;
   font-stretch: condensed;
@@ -70,24 +72,26 @@ footer { margin: 10px; opacity: .5; font-size: .8rem; }
 
 .photo-description {
   margin: 0 0 3rem;
-  font-size: 1.5rem;
   color: var(--color-contrast-xs);
-  max-width: max(800px, 50%);
+  max-width: max(500px, 50%);
 }
 
 .photo-meta {
   margin: 0 0 10rem;
+  font-size: .8rem;
   color:#888;
 }
 
 .photo-location {
-  margin-top: 1rem;
+  margin-top: .5rem;
+  font-size: .8rem;
   text-transform: uppercase;
   color: #888;
 }
 
 .page-date {
   margin: 0 0 3rem;
+  font-size: .8rem;
   text-transform: uppercase;
   color: #888;
 }
@@ -97,6 +101,7 @@ footer { margin: 10px; opacity: .5; font-size: .8rem; }
 .nav {
   display: flex;
   align-items: center;
+  font-size: .8rem;
   text-transform: uppercase; 
   color: #888;
 }

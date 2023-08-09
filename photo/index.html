@@ -1,27 +1,16 @@
----
-
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Photos by Snook</title>
-  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="main.css" />
 </head>
 <body>
- 
-
-<ul>
-{%- for photo in collections.photo -%}
-  <li><a href="{{ photo.url }}"><img src="/img/{{ photo.data.img }}" height="200" style="max-height:200px;"></a></li>
-{%- endfor -%}
-</ul>
-
-<!-- 
-  <div class="page">
+  
+  <div class="page" style="--bg:url(1024x768.png)">
     <div class="photo-main">
-      <img src="IMG_20190409_192330.jpg">
+      <img src="L1030197.jpg">
     </div>
     <div class="content">
       <div class="photo-location">
@@ -30,9 +19,9 @@
           <path d="M5.5,18 C7.43856347,15.9791574 11,10.9433321 11,8.1171875 C11,5.29104288 8.53756612,3 5.5,3 C2.46243388,3 0,5.29104288 0,8.1171875 C0,10.9433321 3.53058388,16.052468 5.5,18 Z"></path>
           </g>
         </svg>
-        Lima, Peru</div>
-      <h1 class="photo-title">Dinner at Maido</h1>
-      <p class="photo-description">Japanese meets Peruvian with this delicious take on ceviche. The restaurant, nestled in a nice neighbourhood in the heart of Lima, features Japanese-style food and service.</p>
+        Trælanípan, Faroe Islands</div>
+      <h1 class="photo-title">test</h1>
+      <div class="photo-description"></div>
 
       <div class="page-date">January 2, 2020</div>
       <div class="photo-meta">
@@ -41,10 +30,9 @@
         <div>Taken with a Sony A7R iii</div>
       </div>
     </div>
-    <a href="#" class="nav nav-previous"><svg viewBox="0 0 12 20" height="20" width="12" xmlns="http://www.w3.org/2000/svg"><polyline points="1,1 12,10 1,20" stroke="currentColor" stroke-width="2" fill="none" /></svg> <span>Place One</span></a>
-    <a href="wide.html" class="nav nav-next"><svg viewBox="0 0 12 20" height="20" width="12" xmlns="http://www.w3.org/2000/svg"><polyline points="12,1 1,10 12,20" stroke="currentColor" stroke-width="2" fill="none" /></svg> <span>Cliffs of Faroe Islands</span></a>
+    <a href="index.html" class="nav nav-previous"><svg viewBox="0 0 12 20" height="20" width="12" xmlns="http://www.w3.org/2000/svg"><polyline points="1,1 12,10 1,20" stroke="currentColor" stroke-width="2" fill="none" /></svg> <span>Dinner at Maido</span></a>
+    <a href="#" class="nav nav-next"><svg viewBox="0 0 12 20" height="20" width="12" xmlns="http://www.w3.org/2000/svg"><polyline points="12,1 1,10 12,20" stroke="currentColor" stroke-width="2" fill="none" /></svg> <span>Place Two</span></a>
   </div>
--->
 
 
 
@@ -59,3 +47,4 @@
   </footer>
 </body>
 </html>
+
