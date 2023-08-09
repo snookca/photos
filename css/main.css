@@ -59,7 +59,7 @@ footer { margin: 10px; opacity: .5; font-size: .8rem; }
 
 
 .photo-title { 
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-transform: uppercase;
   font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", "Arial Narrow", Helvetica, Arial, sans-serif;
   font-stretch: condensed;
@@ -70,24 +70,26 @@ footer { margin: 10px; opacity: .5; font-size: .8rem; }
 
 .photo-description {
   margin: 0 0 3rem;
-  font-size: 1.5rem;
   color: var(--color-contrast-xs);
-  max-width: max(800px, 50%);
+  max-width: max(500px, 50%);
 }
 
 .photo-meta {
   margin: 0 0 10rem;
+  font-size: .8rem;
   color:#888;
 }
 
 .photo-location {
-  margin-top: 1rem;
+  margin-top: .5rem;
+  font-size: .8rem;
   text-transform: uppercase;
   color: #888;
 }
 
 .page-date {
   margin: 0 0 3rem;
+  font-size: .8rem;
   text-transform: uppercase;
   color: #888;
 }
@@ -97,6 +99,7 @@ footer { margin: 10px; opacity: .5; font-size: .8rem; }
 .nav {
   display: flex;
   align-items: center;
+  font-size: .8rem;
   text-transform: uppercase; 
   color: #888;
 }
