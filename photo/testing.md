@@ -5,6 +5,9 @@ title: Cliffs of Faroe Islands
 img: 2020/testing.jpg
 imgthumb: 2020/testing_thumb.jpg
 location: Trælanípan, Faroe Islands
+lat: 62.028
+lng: -7.225
+streets: false
 date: 2020-01-02
 photo:
   date: 2015-10-10

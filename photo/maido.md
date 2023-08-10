@@ -5,6 +5,9 @@ title: Ceviche at Maido
 img: 2020/maido.jpg
 imgthumb: 2020/maido_thumb.jpg
 location: Lima, Peru
+lat: -12.12519
+lng: -77.03062
+streets: true
 date: 2020-01-03
 photo:
   date: 2019-07-26

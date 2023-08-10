@@ -13,20 +13,18 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("CNAME");
 
 
-	// WebC
-	eleventyConfig.addShortcode("thumb", async function(src) {
-    src = "img/" + src;
+	eleventyConfig.addShortcode("mapbox", async function(lat, lng, street) {
+    let style = street ? "ckktzes5022w617p8l034a276" : "ckku1jdtt2p3g17muzxchss7i";
+    src= "https://api.mapbox.com/styles/v1/snookca/" + style + "/static/" + lng + "," + lat + ",12,0/1024x1024@2x?attribution=false&logo=false&access_token=pk.eyJ1Ijoic25vb2tjYSIsImEiOiJja2t0emQ1OG8wbHQ3Mm9tcGpoNWh2czg0In0.Mh7Of5-Eafx82zABkjLAtQ"
 		let metadata = await Image(src, {
-			widths: [400],
-			formats: ["jpeg"]
+			widths: [1024],
+			formats: ["png"]
 		});
 
     console.log(metadata);
-		// You bet we throw an error on a missing alt (alt="" works okay)
-//		return Image.generateHTML(metadata, imageAttributes);
 
-		let data = metadata.jpeg[0];
-		return `<img src="${data.url}" height="200" alt="" loading="lazy" decoding="async">`;
+		let data = metadata.png[0];
+		return data.url;
 	});
 };
 
