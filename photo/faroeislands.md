@@ -8,14 +8,14 @@ location: Trælanípan, Faroe Islands
 lat: 62.028
 lng: -7.225
 streets: false
-date: 2020-01-02
+date: 2022-08-08
 photo:
-  date: 2015-10-10
-  fstop: 2.8
-  shutter: 1/20s
-  ISO: 2000
+  date: 2017-05-15
+  fstop: 1.8
+  shutter: 1/1000s
+  ISO: 100
   lens: 28mm
-  camera: Sony A7R iii
+  camera: Leica Q
 ---
 
 It was a bit of a hike to get here. Much of the Faroe Islands haven't had many tourists. 

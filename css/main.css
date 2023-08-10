@@ -35,8 +35,8 @@ footer { margin: 10px; opacity: .5; font-size: .8rem; }
   grid-template-rows: 10px 1fr;
   grid-template-columns: 10px 1fr 10px ;
   grid-template-areas: ". . ." " . logo . " "image image image" ". content ." ". navprev . " ". navnext .";
-  background:  linear-gradient(rgba(var(--color-base), .87) 75%, rgba(var(--color-base),1) 100%) no-repeat 0 100%, var(--bg) no-repeat 0% 100%;
-  background-size: 1280px 1024px;
+  background:  linear-gradient(rgba(var(--color-base), .90) 25%, rgba(var(--color-base),1) 100%) no-repeat 0 100%, var(--bg) no-repeat 0% 100%;
+  background-size: cover;
 
 }
 @media (min-width:400px) {
@@ -123,9 +123,6 @@ footer { margin: 10px; opacity: .5; font-size: .8rem; }
   .nav {
     justify-self: center;
     flex-direction: column;
-  }
-  .nav > svg {
-    transform: rotate(180deg);
   }
   .nav-next {
     align-self: end;

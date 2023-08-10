@@ -14,8 +14,12 @@ module.exports = function(eleventyConfig) {
 
 
 	eleventyConfig.addShortcode("mapbox", async function(lat, lng, street) {
-    let style = street ? "ckktzes5022w617p8l034a276" : "ckku1jdtt2p3g17muzxchss7i";
-    src= "https://api.mapbox.com/styles/v1/snookca/" + style + "/static/" + lng + "," + lat + ",12,0/1024x1024@2x?attribution=false&logo=false&access_token=pk.eyJ1Ijoic25vb2tjYSIsImEiOiJja2t0emQ1OG8wbHQ3Mm9tcGpoNWh2czg0In0.Mh7Of5-Eafx82zABkjLAtQ"
+    let style = "ckku1jdtt2p3g17muzxchss7i", zoom = "12";
+    if (street) {
+      style =  "ckktzes5022w617p8l034a276"
+        zoom = "14";
+    } 
+    src= "https://api.mapbox.com/styles/v1/snookca/" + style + "/static/" + lng + "," + lat + "," + zoom + ",0/700x1024@2x?attribution=false&logo=false&access_token=pk.eyJ1Ijoic25vb2tjYSIsImEiOiJja2t0emQ1OG8wbHQ3Mm9tcGpoNWh2czg0In0.Mh7Of5-Eafx82zABkjLAtQ"
 		let metadata = await Image(src, {
 			widths: [1024],
 			formats: ["png"]
