@@ -20,5 +20,5 @@ photo:
 
 It was a bit of a hike to get here. Much of the Faroe Islands haven't had many tourists. 
 
-As a result, there's not a clear path to get here. We got here and it was very window. I was scared to get too close to the edge for fear of getting blown into the water.
+As a result, there's not a clear path to get here. We got here and it was very windy. I was scared to get too close to the edge for fear of getting blown into the water.
 
