@@ -33,7 +33,15 @@
     <link href="{{ absolutePostUrl }}"/>
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content xml:lang="{{ metadata.language }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    <content xml:lang="{{ metadata.language }}" type="html">
+
+      &lt;img src="/img/{{ post.data.img }}"&gt;
+      &lt;p&gt;{{ post.data.location }}&lt;/p&gt;
+      {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+
+      &lt;p&gt;&#160;&lt;/p&gt;
+      &lt;small&gt;Full photo metadata available on the site.&lt;/small&gt;
+    </content>
   </entry>
   {%- endfor %}
 </feed>
