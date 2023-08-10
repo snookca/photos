@@ -8,7 +8,7 @@ location: Trælanípan, Faroe Islands
 lat: 62.028
 lng: -7.225
 streets: false
-date: 2022-08-08
+date: 2023-08-08
 photo:
   date: 2017-05-15
   fstop: 1.8
