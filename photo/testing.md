@@ -3,6 +3,7 @@ layout: photo.njk
 tags: photo
 title: Cliffs of Faroe Islands
 img: 2020/testing.jpg
+imgthumb: 2020/testing_thumb.jpg
 location: Trælanípan, Faroe Islands
 date: 2020-01-02
 photo:

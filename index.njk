@@ -20,8 +20,8 @@
     </div>
     <div class="content">
       <div class="photolist">
-      {%- for photo in collections.photo -%}
-      <div class="photolist-photo"><a href="{{ photo.url }}"><img src="/img/{{ photo.data.img }}" height="200" style="max-height:200px;"></a></div>
+      {%- for photo in collections.photo | reverse -%}
+      <div class="photolist-photo"><a href="{{ photo.url }}"><img src="/img/{{ photo.data.imgthumb }}" height="300" alt="{{ photo.data.title }}"></a></div>
       {%- endfor -%}
       </div>
     </div>

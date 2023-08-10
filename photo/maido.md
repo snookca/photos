@@ -3,6 +3,7 @@ layout: photo.njk
 tags: photo
 title: Ceviche at Maido
 img: 2020/maido.jpg
+imgthumb: 2020/maido_thumb.jpg
 location: Lima, Peru
 date: 2020-01-03
 photo:

@@ -60,6 +60,8 @@ footer { margin: 10px; opacity: .5; font-size: .8rem; }
 .header { grid-area: logo; text-transform: uppercase; padding:25px 0 75px; }
 .header #logo { vertical-align: -0.4rem; }
 
+.photolist { display: flex; flex-wrap: wrap; gap: 20px; }
+
 .photo-title { 
   font-size: 1rem;
   text-transform: uppercase;
