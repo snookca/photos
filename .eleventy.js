@@ -21,7 +21,6 @@ module.exports = function(eleventyConfig) {
 			formats: ["png"]
 		});
 
-    console.log(metadata);
 
 		let data = metadata.png[0];
 		return data.url;
