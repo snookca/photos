@@ -2,7 +2,7 @@
 
 html { 
   --color-light:#FFFEFC; 
-  --color-dark:#171717; 
+  --color-dark:#EEE; 
   --color-base: 255, 254, 252;
   --color-contrast: 17, 17, 17;
   --color-contrast-s:#333; 
@@ -14,6 +14,7 @@ html {
 
 @media (prefers-color-scheme: dark) {
   html {
+  --color-dark:#171717; 
   --color-base: 17, 17, 17;
   --color-contrast: 255, 254, 252;
   --color-contrast-s: #EEE;
