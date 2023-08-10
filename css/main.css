@@ -25,9 +25,12 @@ html {
 body { margin: 0; line-height: 1.6; }
 
 a { text-decoration: none; color: var(--color-contrast-s);}
-a:hover { color: rgb(var(--color-contrast));}
+a:hover { color: rgb(var(--color-contrast)); }
 
-footer { margin: 10px; opacity: .5; font-size: .8rem; }
+footer { margin: 10px; opacity: .5; font-size: .8rem; color: var(--color-contrast-xs); }
+footer a { color: rgb(var(--color-contrast));}
+footer a:hover { color: rgb(var(--color-contrast));background-color:var(--color-dark);}
+
 
 .page { 
   --bg: url(1280x1024roads.png);
@@ -96,7 +99,6 @@ footer { margin: 10px; opacity: .5; font-size: .8rem; }
 
 .nav > svg {
   margin: 10px;
-  color: rgb(var(--color-contrast));
 }
 
 .nav > span {
