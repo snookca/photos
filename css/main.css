@@ -33,7 +33,7 @@ footer a:hover { color: rgb(var(--color-contrast));background-color:var(--color-
 
 
 .page { 
-  --bg: url(1280x1024roads.png);
+  --bg: "";
   display:grid; 
   grid-template-rows: 10px 3rem 4rem 1fr;
   grid-template-columns: 10px 50px 1fr 50px 10px ;
