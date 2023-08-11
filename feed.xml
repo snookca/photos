@@ -4,12 +4,31 @@
   <subtitle>My adventures in photography.</subtitle>
   <link href="https://photos.snook.ca/feed.xml" rel="self"/>
   <link href="https://photos.snook.ca/"/>
-  <updated>2023-08-10T00:00:00Z</updated>
+  <updated>2023-08-11T00:00:00Z</updated>
   <id>https://photos.snook.ca/</id>
   <author>
     <name>Jonathan Snook</name>
     <email>jonathan@snook.ca</email>
   </author>
+  <entry>
+    <title>Parliament of Canada</title>
+    <link href="https://photos.snook.ca/photo/parliament/"/>
+    <updated>2023-08-11T00:00:00Z</updated>
+    <id>https://photos.snook.ca/photo/parliament/</id>
+    <content xml:lang="en" type="html">
+
+      &lt;img src="/img/2021/parliament.jpg"&gt;
+      &lt;p&gt;Ottawa, Canada&lt;/p&gt;
+      &lt;p&gt;Ottawa is quite beautiful during the summer. Lots of luscious greens and blues.
+This was in 2021 when we were still heavily within a pandemic, so summer was very welcome.&lt;/p&gt;
+
+
+      &lt;p&gt;&#160;&lt;/p&gt;
+      &lt;small&gt;Full photo metadata available on the site.&lt;/small&gt;
+      &lt;hr/&gt;
+      &lt;a href="mailto:photos@snk.ms"&gt;Reply via email&lt;/a&gt;. I'd enjoy hearing from you.
+    </content>
+  </entry>
   <entry>
     <title>Greenville</title>
     <link href="https://photos.snook.ca/photo/greenville/"/>
