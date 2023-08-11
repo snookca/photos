@@ -8,6 +8,13 @@
   <title>{{ title }} - Photo by Snook</title>
   <link rel="stylesheet" href="/css/main.css" />
   <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Photos by Snook">
+
+  <meta property="og:url" content="https://photos.snook.ca{{ page.url | url }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:type" content="article">
+  <meta property="og:description" name="description" content="{{ location }}">
+  <meta property="og:image" content="https://photos.snook.ca/img/{{ imgthumb }}">
+  <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
  
