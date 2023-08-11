@@ -51,7 +51,7 @@ footer a:hover { color: rgb(var(--color-contrast));background-color:var(--color-
 .header #logo { vertical-align: -0.4rem; }
 
 .photolist { display: flex; flex-wrap: wrap; gap: 20px; }
-
+.photolist img {max-height:115px;}
 .photo-title { 
   font-size: 1rem;
   text-transform: uppercase;
@@ -130,6 +130,8 @@ footer a:hover { color: rgb(var(--color-contrast));background-color:var(--color-
   .header {
     justify-self: start;
   }
+
+  .photolist img {max-height:200px;}
   .nav {
     justify-self: center;
     flex-direction: column;
