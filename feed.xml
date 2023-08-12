@@ -4,12 +4,30 @@
   <subtitle>My adventures in photography.</subtitle>
   <link href="https://photos.snook.ca/feed.xml" rel="self"/>
   <link href="https://photos.snook.ca/"/>
-  <updated>2023-08-11T00:00:00Z</updated>
+  <updated>2023-08-12T00:00:00Z</updated>
   <id>https://photos.snook.ca/</id>
   <author>
     <name>Jonathan Snook</name>
     <email>jonathan@snook.ca</email>
   </author>
+  <entry>
+    <title>Stockholm Train Station</title>
+    <link href="https://photos.snook.ca/photo/stockholm/"/>
+    <updated>2023-08-12T00:00:00Z</updated>
+    <id>https://photos.snook.ca/photo/stockholm/</id>
+    <content xml:lang="en" type="html">
+
+      &lt;img src="/img/2020/stockholm.jpg"&gt;
+      &lt;p&gt;Stockholm, Sweden&lt;/p&gt;
+      &lt;p&gt;Notice the date on this photo? Yes, that&#39;s about two weeks before the first lockdown. We had just landed in Stockholm during a tour of restaurants. The train stations in Stockholm full of interesting details. I&#39;d go back just to do a tour of train stations.&lt;/p&gt;
+
+
+      &lt;p&gt;&#160;&lt;/p&gt;
+      &lt;small&gt;Full photo metadata available on the site.&lt;/small&gt;
+      &lt;hr/&gt;
+      &lt;a href="mailto:photos@snk.ms"&gt;Reply via email&lt;/a&gt;. I'd enjoy hearing from you.
+    </content>
+  </entry>
   <entry>
     <title>Parliament of Canada</title>
     <link href="https://photos.snook.ca/photo/parliament/"/>
