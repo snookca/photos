@@ -43,7 +43,7 @@
       <div class="photo-meta">
         <div>Photo taken on {{ photo.date | prettyDate }}</div>
         <div>f{{ photo.fstop }} &bull; {{ photo.shutter }} &bull; ISO {{ photo.ISO }} &bull; {{ photo.lens }}</div>
-        <div>Taken with a {{ photo.camera }}</div>
+        <div>Taken with the {{ photo.camera }}</div>
       </div>
     </div>
     {% if nextPost %}<a href="{{ nextPost.url }}" class="nav nav-previous"><svg viewBox="0 0 12 20" height="20" width="12" xmlns="http://www.w3.org/2000/svg"><polyline points="12,1 1,10 12,20" stroke="currentColor" stroke-width="2" fill="none" /></svg> <span>{{ nextPost.data.title }}</span></a>{% endif %}
