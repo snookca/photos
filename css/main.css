@@ -69,6 +69,10 @@ footer a:hover { color: rgb(var(--color-contrast));background-color:var(--color-
   max-width: max(500px, 50%);
 }
 
+.photo-description a {
+  text-decoration: underline;
+}
+
 .photo-meta {
   margin: 0 0 10rem;
   font-size: .8rem;

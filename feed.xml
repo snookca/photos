@@ -4,12 +4,30 @@
   <subtitle>My adventures in photography.</subtitle>
   <link href="https://photos.snook.ca/feed.xml" rel="self"/>
   <link href="https://photos.snook.ca/"/>
-  <updated>2023-08-12T00:00:00Z</updated>
+  <updated>2023-08-13T00:00:00Z</updated>
   <id>https://photos.snook.ca/</id>
   <author>
     <name>Jonathan Snook</name>
     <email>jonathan@snook.ca</email>
   </author>
+  <entry>
+    <title>Eye of the Bridge</title>
+    <link href="https://photos.snook.ca/photo/eye/"/>
+    <updated>2023-08-13T00:00:00Z</updated>
+    <id>https://photos.snook.ca/photo/eye/</id>
+    <content xml:lang="en" type="html">
+
+      &lt;img src="/img/2020/eyebridge.jpg"&gt;
+      &lt;p&gt;Copenhagen, Denmark&lt;/p&gt;
+      &lt;p&gt;Knippelsbro (aka Knippel Bridge) has quite the &lt;a href=&quot;https://en.wikipedia.org/wiki/Knippelsbro&quot;&gt;history&lt;/a&gt;. I found the perspective through the window of the bridge tower to be like an eye. I also adore the patina adding colour to it all.&lt;/p&gt;
+
+
+      &lt;p&gt;&#160;&lt;/p&gt;
+      &lt;small&gt;Full photo metadata available on the site.&lt;/small&gt;
+      &lt;hr/&gt;
+      &lt;a href="mailto:photos@snk.ms"&gt;Reply via email&lt;/a&gt;. I'd enjoy hearing from you.
+    </content>
+  </entry>
   <entry>
     <title>Stockholm Train Station</title>
     <link href="https://photos.snook.ca/photo/stockholm/"/>
