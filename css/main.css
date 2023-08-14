@@ -52,7 +52,7 @@ footer a:hover { color: rgb(var(--color-contrast));background-color:var(--color-
 .header { grid-area: logo; text-transform: uppercase; align-self: center; justify-self: center; }
 .header #logo { vertical-align: -0.4rem; }
 
-.photolist { display: flex; flex-wrap: wrap; gap: 20px; }
+.photolist { display: flex; flex-wrap: wrap; gap: 10px; }
 .photolist img {max-height:115px;}
 .photo-title { 
   font-size: 1rem;
@@ -137,6 +137,7 @@ footer a:hover { color: rgb(var(--color-contrast));background-color:var(--color-
     justify-self: start;
   }
 
+  .photolist { gap: 20px; }
   .photolist img {max-height:200px;}
   .nav {
     justify-self: center;
