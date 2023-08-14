@@ -43,6 +43,7 @@ footer a:hover { color: rgb(var(--color-contrast));background-color:var(--color-
   grid-template-areas: ". . . . ." " . navprev logo navnext . " ". . . . ." "image image image image image" ". content content content .";
   background:  linear-gradient(rgba(var(--color-base), .90) 25%, rgba(var(--color-base),1) 100%) no-repeat 0 100%, var(--bg) no-repeat 0% 100%;
   background-size: cover;
+  margin: 0 0 7rem;
 }
 
 .photo-main {background-color: var(--color-dark); grid-area: image; }
@@ -74,7 +75,7 @@ footer a:hover { color: rgb(var(--color-contrast));background-color:var(--color-
 }
 
 .photo-meta {
-  margin: 0 0 10rem;
+  margin: 0 0 3rem;
   font-size: .8rem;
   color:#888;
 }
