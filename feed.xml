@@ -4,12 +4,32 @@
   <subtitle>My adventures in photography.</subtitle>
   <link href="https://photos.snook.ca/feed.xml" rel="self"/>
   <link href="https://photos.snook.ca/"/>
-  <updated>2023-08-14T00:00:00Z</updated>
+  <updated>2023-08-16T00:00:00Z</updated>
   <id>https://photos.snook.ca/</id>
   <author>
     <name>Jonathan Snook</name>
     <email>jonathan@snook.ca</email>
   </author>
+  <entry>
+    <title>Iceland House</title>
+    <link href="https://photos.snook.ca/photo/iceland/"/>
+    <updated>2023-08-16T00:00:00Z</updated>
+    <id>https://photos.snook.ca/photo/iceland/</id>
+    <content xml:lang="en" type="html">
+
+      &lt;img src="/img/2014/icelandhouse.jpg"&gt;
+      &lt;p&gt;Iceland&lt;/p&gt;
+      &lt;p&gt;The first (and so far only) time I went to Iceland was for a photography workshop. It was mostly an excuse to travel to somewhere interesting but it was also advantageous
+to have someone plan places for us to visit. We explored one of the western peninsulas and came across this house sitting out on the edge of a small lake. The backdrop
+of the hillly outcrop with the low clouds was absolutely stunning. Also interesting to note was how many awful photos before I took something that was half decent.&lt;/p&gt;
+
+
+      &lt;p&gt;&#160;&lt;/p&gt;
+      &lt;small&gt;Full photo metadata available on the site.&lt;/small&gt;
+      &lt;hr/&gt;
+      &lt;a href="mailto:photos@snk.ms"&gt;Reply via email&lt;/a&gt;. I'd enjoy hearing from you.
+    </content>
+  </entry>
   <entry>
     <title>A Parisien Moment</title>
     <link href="https://photos.snook.ca/photo/parisdown/"/>
