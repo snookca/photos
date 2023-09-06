@@ -29,7 +29,7 @@
     <div class="content">
       <div class="photolist">
       {%- for photo in collections.photo | reverse -%}
-      <div class="photolist-photo"><a href="{{ photo.url }}"><img src="/img/{{ photo.data.imgthumb }}" height="200" alt="{{ photo.data.title }}"></a></div>
+      <div class="photolist-photo"><a href="{{ photo.url }}"><img loading="lazy" src="/img/{{ photo.data.imgthumb }}" height="200" alt="{{ photo.data.title }}"></a></div>
       {%- endfor -%}
       </div>
     </div>
