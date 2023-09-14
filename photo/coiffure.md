@@ -18,5 +18,5 @@ photo:
   camera: Leica Q
 ---
 
-Walking around Paris, looking for delightful coffee shops or a park to sit in, and happen upon a nook or two where a doorway leads to a hidden alcove.
+Walking around Paris, looking for delightful coffee shops or a park to sit in, and happen upon a nook or two where a doorway leads to a hidden alcove. 
 A hairdresser or a restaurant or some other establishment lies deep within the heart of the city.
