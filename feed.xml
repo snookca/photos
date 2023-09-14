@@ -4,12 +4,31 @@
   <subtitle>My adventures in photography.</subtitle>
   <link href="https://photos.snook.ca/feed.xml" rel="self"/>
   <link href="https://photos.snook.ca/"/>
-  <updated>2023-08-18T00:00:00Z</updated>
+  <updated>2023-09-14T00:00:00Z</updated>
   <id>https://photos.snook.ca/</id>
   <author>
     <name>Jonathan Snook</name>
     <email>jonathan@snook.ca</email>
   </author>
+  <entry>
+    <title>Coiffure</title>
+    <link href="https://photos.snook.ca/photo/coiffure/"/>
+    <updated>2023-09-14T00:00:00Z</updated>
+    <id>https://photos.snook.ca/photo/coiffure/</id>
+    <content xml:lang="en" type="html">
+
+      &lt;img src="/img/2023/coiffure.jpg"&gt;
+      &lt;p&gt;Paris, France&lt;/p&gt;
+      &lt;p&gt;Walking around Paris, looking for delightful coffee shops or a park to sit in, and happen upon a nook or two where a doorway leads to a hidden alcove.
+A hairdresser or a restaurant or some other establishment lies deep within the heart of the city.&lt;/p&gt;
+
+
+      &lt;p&gt;&#160;&lt;/p&gt;
+      &lt;small&gt;Full photo metadata available on the site.&lt;/small&gt;
+      &lt;hr/&gt;
+      &lt;a href="mailto:photos@snk.ms"&gt;Reply via email&lt;/a&gt;. I'd enjoy hearing from you.
+    </content>
+  </entry>
   <entry>
     <title>La Machine</title>
     <link href="https://photos.snook.ca/photo/lamachine/"/>
