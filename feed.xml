@@ -4,12 +4,32 @@
   <subtitle>My adventures in photography.</subtitle>
   <link href="https://photos.snook.ca/feed.xml" rel="self"/>
   <link href="https://photos.snook.ca/"/>
-  <updated>2023-09-14T00:00:00Z</updated>
+  <updated>2025-03-26T00:00:00Z</updated>
   <id>https://photos.snook.ca/</id>
   <author>
     <name>Jonathan Snook</name>
     <email>jonathan@snook.ca</email>
   </author>
+  <entry>
+    <title>Louvre</title>
+    <link href="https://photos.snook.ca/photo/louvre/"/>
+    <updated>2025-03-26T00:00:00Z</updated>
+    <id>https://photos.snook.ca/photo/louvre/</id>
+    <content xml:lang="en" type="html">
+
+      &lt;img src="/img/2025/louvre.jpeg"&gt;
+      &lt;p&gt;Paris, France&lt;/p&gt;
+      &lt;p&gt;Was in Paris for a week with my son and he wanted to spend a day at the Louvre. We made sure to take in the major works like the Mona Lisa. Afterwards, we walked
+over to the oldest patisserie in Paris and bought some macarons. This photo bothers me ever so slightly for standing in the wrong place. I should&#39;ve
+stepped to the left about one foot so as to have the pyramids line up properly.&lt;/p&gt;
+
+
+      &lt;p&gt;&#160;&lt;/p&gt;
+      &lt;small&gt;Full photo metadata available on the site.&lt;/small&gt;
+      &lt;hr/&gt;
+      &lt;a href="mailto:photos@snk.ms"&gt;Reply via email&lt;/a&gt;. I'd enjoy hearing from you.
+    </content>
+  </entry>
   <entry>
     <title>Paris Rooftop</title>
     <link href="https://photos.snook.ca/photo/parisroof/"/>
